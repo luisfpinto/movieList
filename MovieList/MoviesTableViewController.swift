@@ -26,7 +26,8 @@ class MoviesTableViewController: UITableViewController {
                         let movieTitle = movie["title"] as! String
                         let movieAbout = movie["overview"] as! String
                         let movieScore = movie["vote_average"]
-                        let movie = Movie(title: movieTitle, about: movieAbout, score: "\(String(describing: movieScore!))")
+                        let imageURL = movie["poster_path"] as! String
+                        let movie = Movie(title: movieTitle, about: movieAbout, score: "\(String(describing: movieScore!))", imageURL: imageURL)
                         self.movies.append(movie)
                     }
                     activityIndicatorView.removeFromSuperview()

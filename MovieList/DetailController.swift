@@ -12,6 +12,7 @@ class DetailController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var aboutLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet weak var movieImage: UIImageView!
     var movie: Movie?
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class DetailController: UIViewController {
             titleLabel.text = movie.title
             aboutLabel.text = movie.about
             scoreLabel.text = movie.score
+            movieImage.image = UIImage(data: movie.getImage())
         }
         // Do any additional setup after loading the view.
     }
