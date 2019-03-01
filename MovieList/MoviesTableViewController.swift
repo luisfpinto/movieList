@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import Alamofire
+
 
 class MoviesTableViewController: UITableViewController {
     var movies: [Movie] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-        let movie1 = Movie(title: "TheMummy", about: "Great film", score: "9/10")
-        self.movies.append(movie1)
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        view.addSubview(activityIndicatorView)
+        activityIndicatorView.center = view.center
+        activityIndicatorView.startAnimating()
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        Alamofire.request("https://api.themoviedb.org/3/discover/movie?api_key=48a2e2ba2451c8381dda4de36e50a609&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1").responseJSON {response in
+            if let resultJSON = response.result.value as? [String: Any] {
+                if let movieList = resultJSON["results"] as? [[String: Any]] {
+                    movieList.forEach{ movie in
+                        let movieTitle = movie["title"] as! String
+                        let movieAbout = movie["overview"] as! String
+                        let movieScore = movie["vote_average"]
+                        let movie = Movie(title: movieTitle, about: movieAbout, score: "\(String(describing: movieScore!))")
+                        self.movies.append(movie)
+                    }
+                    activityIndicatorView.removeFromSuperview()
+                    self.tableView.reloadData()
+                }
+            }
+        }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "movieInfo") {
@@ -43,6 +58,8 @@ class MoviesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+        print("Number of movies")
+        print(self.movies.count)
         return self.movies.count
     }
 
@@ -51,6 +68,8 @@ class MoviesTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movie", for: indexPath)
         let movie = self.movies[indexPath.row]
         cell.textLabel?.text = movie.title
+        print("******")
+        print(cell)
         return cell
     }
  
@@ -101,3 +120,5 @@ class MoviesTableViewController: UITableViewController {
     */
 
 }
+
+
