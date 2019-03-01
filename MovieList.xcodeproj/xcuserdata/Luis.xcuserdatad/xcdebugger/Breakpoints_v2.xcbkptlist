@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieList/DetailController.swift"
+            timestampString = "573133814.345968"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.__deallocating_deinit"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133430.904989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MovieList.DetailController"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133430.907967"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MovieList.DetailController"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133430.91152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MovieList.DetailController&gt;"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133430.914717"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MovieList.DetailController&gt;"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133430.917323"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieList/DetailController.swift"
+            timestampString = "573133814.346078"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "DetailController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.__deallocating_deinit"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.410488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MovieList.DetailController"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.413725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MovieList.DetailController"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.4160219"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MovieList.DetailController&gt;"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.4181581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MovieList.DetailController&gt;"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.420133"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieList/MoviesTableViewController.swift"
+            timestampString = "573133814.346167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieList/DetailController.swift"
+            timestampString = "573133814.346244"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.movie.getter : Swift.Optional&lt;MovieList.Movie&gt;"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.8382421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.movie.setter : Swift.Optional&lt;MovieList.Movie&gt;"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.841596"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MovieList.DetailController"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.844607"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieList.DetailController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;MovieList.DetailController&gt;"
+                  moduleName = "MovieList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Development/LearningSwift/MovieList/MovieList/DetailController.swift"
+                  timestampString = "573133431.8479151"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
